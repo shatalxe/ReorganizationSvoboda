@@ -530,6 +530,83 @@
 							<ContextMenu name="ПриЗагрузкеИспользоватьРежимОбменаДаннымиКонтекстноеМеню" id="76"/>
 							<ExtendedTooltip name="ПриЗагрузкеИспользоватьРежимОбменаДаннымиРасширеннаяПодсказка" id="77"/>
 						</CheckBoxField>
+						<UsualGroup name="ПодменаОрганизаций" id="157">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подмена организаций</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подмена организаций</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ПодменаОрганизацийРасширеннаяПодсказка" id="158"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьПодменуОрганизаций" id="159">
+									<DataPath>Объект.ИспользоватьПодменуОрганизаций</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИспользоватьПодменуОрганизацийКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="ИспользоватьПодменуОрганизацийРасширеннаяПодсказка" id="161"/>
+								</CheckBoxField>
+								<UsualGroup name="ГруппаОрганизацияЗаменяемая" id="171">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа организация заменяемая</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа организация заменяемая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОрганизацияЗаменяемаяРасширеннаяПодсказка" id="172"/>
+									<ChildItems>
+										<InputField name="ОрганизацияЗаменяемая" id="162">
+											<DataPath>Объект.ОрганизацияЗаменяемая</DataPath>
+											<ContextMenu name="ОрганизацияЗаменяемаяКонтекстноеМеню" id="163"/>
+											<ExtendedTooltip name="ОрганизацияЗаменяемаяРасширеннаяПодсказка" id="164"/>
+											<Events>
+												<Event name="OnChange">ОрганизацияЗаменяемаяПриИзменении</Event>
+											</Events>
+										</InputField>
+										<LabelDecoration name="ОрганизацияЗаменяемаяИД" id="168">
+											<ContextMenu name="ОрганизацияЗаменяемаяИДКонтекстноеМеню" id="169"/>
+											<ExtendedTooltip name="ОрганизацияЗаменяемаяИДРасширеннаяПодсказка" id="170"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОрганизацияЗаменяющая" id="173">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа организация заменяемая</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОрганизацияЗаменяющаяРасширеннаяПодсказка" id="174"/>
+									<ChildItems>
+										<InputField name="ОрганизацияЗаменяющая" id="165">
+											<DataPath>Объект.ОрганизацияЗаменяющая</DataPath>
+											<ContextMenu name="ОрганизацияЗаменяющаяКонтекстноеМеню" id="166"/>
+											<ExtendedTooltip name="ОрганизацияЗаменяющаяРасширеннаяПодсказка" id="167"/>
+											<Events>
+												<Event name="OnChange">ОрганизацияЗаменяющаяПриИзменении</Event>
+											</Events>
+										</InputField>
+										<LabelDecoration name="ОрганизацияЗаменяющаяИД" id="175">
+											<ContextMenu name="ОрганизацияЗаменяющаяИДКонтекстноеМеню" id="176"/>
+											<ExtendedTooltip name="ОрганизацияЗаменяющаяИДРасширеннаяПодсказка" id="177"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 						<CheckBoxField name="ПродолжитьЗагрузкуВСлучаеВозникновенияОшибки" id="78">
 							<DataPath>Объект.ПродолжитьЗагрузкуВСлучаеВозникновенияОшибки</DataPath>
 							<Title>
@@ -942,21 +1019,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкиКонсолиЗапросов</Action>
-		</Command>
-		<Command name="Шаблон_ВыгрузкаНСИ" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузка НСИ</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Шаблон выгрузка НСИ</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>Шаблон_ВыгрузкаНСИ</Action>
 		</Command>
 	</Commands>
 </Form>
