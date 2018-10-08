@@ -1,18 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<<<<<<< HEAD
 =======
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 >>>>>>> parent of 0daf643... Конвертирована в формат 8.3.12
 	<ExternalDataProcessor uuid="1dd21a39-4868-459a-8907-e02da00509b8">
+=======
+	<ExternalDataProcessor uuid="69c3878a-2d28-4172-9d2b-7ff9d7b4312f">
+>>>>>>> parent of b50e4f9... добавлен шаблон по разделу "склад и логистика"
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>6789df09-fbaa-41b9-bf05-306587085c5f</xr:ObjectId>
+				<xr:ObjectId>649ae815-66eb-4a49-9765-2220e27bb928</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:GeneratedType name="ExternalDataProcessorObject.ВыгрузкаЗагрузкаДанныхXML" category="Object">
-				<xr:TypeId>3ff93e76-ccdb-4f1c-ab8d-faa2edaf20d8</xr:TypeId>
-				<xr:ValueId>393150a8-7fe8-4a92-beeb-43b105c36f91</xr:ValueId>
+				<xr:TypeId>6743770a-a974-446e-a6e1-5f8c00adf9a8</xr:TypeId>
+				<xr:ValueId>9904b36b-db4d-47e4-85c4-852ee807d58a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -28,7 +32,7 @@
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="e45e127a-8b16-403f-a89a-bf19c4af7dd1">
+			<Attribute uuid="94ceb2da-9839-4b11-aa21-00b82ebf69f2">
 				<Properties>
 					<Name>ИмяФайлаВыгрузки</Name>
 					<Synonym>
@@ -70,7 +74,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a9b91163-93eb-46ce-ac79-533e2337eb3d">
+			<Attribute uuid="960d3908-3f60-4eae-834d-e8daaf3574c9">
 				<Properties>
 					<Name>ОкноИсполненияОбщееКоличество</Name>
 					<Synonym>
@@ -109,7 +113,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="04d93e9a-752e-43e9-badf-af4b3dcd174c">
+			<Attribute uuid="0dfd06fa-b6f1-4a88-aea1-fb1fa56f46d1">
 				<Properties>
 					<Name>ОкноИсполненияОбработано</Name>
 					<Synonym>
@@ -148,7 +152,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="702a6a0d-d298-4397-b851-f3947f12411d">
+			<Attribute uuid="8702c126-b8c1-4215-a14e-b1d18dc0ffc7">
 				<Properties>
 					<Name>ДеревоМетаданных</Name>
 					<Synonym>
@@ -182,7 +186,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="56de0971-e6f0-4b5d-bc4b-4d656fa79bd0">
+			<Attribute uuid="44a513eb-3e91-4216-bcff-b944fd683324">
 				<Properties>
 					<Name>ВключитьВозможностьРедактированияИспользованияИтогов</Name>
 					<Synonym>
@@ -216,7 +220,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0e061515-ee08-42db-8bcf-d1b01933a061">
+			<Attribute uuid="a204dd12-7836-4021-ab1d-d662c660e68d">
 				<Properties>
 					<Name>ПодзаголовокОкнаИсполнения</Name>
 					<Synonym>
@@ -254,7 +258,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="cdebba50-4884-456b-82c9-480070c60662">
+			<Attribute uuid="ccec4074-72ed-43ac-a83f-4f590b37863c">
 				<Properties>
 					<Name>ПриЗагрузкеИспользоватьРежимОбменаДанными</Name>
 					<Synonym>
@@ -288,7 +292,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a0f4d47b-8af9-4218-ace7-d81deda49705">
+			<Attribute uuid="bf884647-4daa-4087-b1f8-8490162d5aec">
 				<Properties>
 					<Name>ПродолжитьЗагрузкуВСлучаеВозникновенияОшибки</Name>
 					<Synonym>
@@ -322,7 +326,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="fe7f9c4b-d287-4058-a543-99a5322723da">
+			<Attribute uuid="6e186228-c8d5-4e49-931c-c7b446f90277">
 				<Properties>
 					<Name>ДатаНачала</Name>
 					<Synonym>
@@ -359,7 +363,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="29f7f4b4-a2eb-42a0-a9d4-7800c2792d21">
+			<Attribute uuid="40d311c8-52b1-40ae-8443-d4773abf8517">
 				<Properties>
 					<Name>ДатаОкончания</Name>
 					<Synonym>
@@ -396,7 +400,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f76201de-4704-43a8-81a5-4311717e5eb3">
+			<Attribute uuid="a5f4e311-0e8e-4a29-999b-ab5381455674">
 				<Properties>
 					<Name>ИспользоватьОтборПоДатеДляВсехОбъектов</Name>
 					<Synonym>
@@ -430,7 +434,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="03556c98-5b3e-49ee-b2cf-f9e2c9b679f7">
+			<Attribute uuid="e768c2a4-8208-4114-9657-93ce0b3650d2">
 				<Properties>
 					<Name>ВыгружатьСДокументомЕгоДвижения</Name>
 					<Synonym>
@@ -464,7 +468,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8f4ff4f0-c470-4610-82d5-739c18284024">
+			<Attribute uuid="297fe7d7-19cf-42c6-a391-3d03454b9185">
 				<Properties>
 					<Name>ТипВыгрузкиПериодическихРегистров</Name>
 					<Synonym>
@@ -503,7 +507,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4e4cb9e3-11fa-4546-a205-d373e336fad1">
+			<Attribute uuid="6405a0f1-89df-4b14-b872-f31c8bc7a576">
 				<Properties>
 					<Name>ИспользоватьФорматFastInfoSet</Name>
 					<Synonym>
@@ -537,7 +541,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5f274f0e-0b1c-40bb-899d-b9b0af99b263">
+			<Attribute uuid="9b544e0e-8c7f-43ae-911e-bcd77542e200">
 				<Properties>
 					<Name>СохраненныеНастройки</Name>
 					<Synonym>
@@ -614,7 +618,11 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -648,7 +656,11 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -682,7 +694,11 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -705,15 +721,15 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="ca1344bd-837c-43a7-83f1-347947ed4faa">
+			<TabularSection uuid="5eb0d50d-1976-48fd-8b55-3c86402c1dc2">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ВыгрузкаЗагрузкаДанныхXML.ДополнительныеОбъектыДляВыгрузки" category="TabularSection">
-						<xr:TypeId>914329e1-22d5-477f-a59b-56fe507e7481</xr:TypeId>
-						<xr:ValueId>cd681a35-afd0-4121-94cc-2391e9ab7486</xr:ValueId>
+						<xr:TypeId>17757163-5fec-45b2-bc28-295cb63db39a</xr:TypeId>
+						<xr:ValueId>d7227a50-06b4-4ad1-9aff-8e30de91fcef</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DataProcessorTabularSectionRow.ВыгрузкаЗагрузкаДанныхXML.ДополнительныеОбъектыДляВыгрузки" category="TabularSectionRow">
-						<xr:TypeId>e6727d73-824d-4c9c-bd6b-e3131c2a0d73</xr:TypeId>
-						<xr:ValueId>30b1554c-bfb1-480a-819e-f40dfb8447fe</xr:ValueId>
+						<xr:TypeId>51d7e989-023b-4214-ba1e-bd4b1635d57e</xr:TypeId>
+						<xr:ValueId>ecb79693-ea8f-469e-9170-47dc88ebf803</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -757,7 +773,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="1d0b6c37-2662-471e-8546-0b30a8a35ef0">
+					<Attribute uuid="cb0505bc-c2b1-4480-89fa-cd9e20995053">
 						<Properties>
 							<Name>Объект</Name>
 							<Synonym>
@@ -801,7 +817,7 @@
 							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="cbfc1ca5-9523-4801-b83b-e865b8d39eb0">
+					<Attribute uuid="1754a840-a5f2-43e9-baf1-6687c6b40c1e">
 						<Properties>
 							<Name>ИмяОбъектаДляЗапроса</Name>
 							<Synonym>
